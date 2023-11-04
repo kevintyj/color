@@ -17,11 +17,18 @@
 		"color",
 		"accessibility"
 	],
-	"main": "index.js",
-	"module": "index.mjs",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		"import": "./dist/index.js",
+		"require": "./dist/index.cjs",
+		"default": "./dist/index.js"
+	},
 	"scripts": {
+		"watch": "tsup --watch",
 		"prepare": "husky install",
-		"lint:es": "eslint ."
+		"lint:es": "eslint .",
+		"clean": "git clean -fdX"
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^1.1.0",
@@ -30,6 +37,10 @@
 		"eslint": "^8.53.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^15.0.2",
+		"tsup": "^7.2.0",
 		"typescript": "^5.2.2"
+	},
+	"lint-staged": {
+		"*": "eslint --fix"
 	}
 }

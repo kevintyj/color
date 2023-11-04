@@ -1,0 +1,35 @@
+{
+	"name": "@kevintyj/color",
+	"type": "module",
+	"version": "0.0.0",
+	"author": "Kevin Taeyoon Jin <hello@kevintyj.com>",
+	"license": "BSD-3-Clause",
+	"homepage": "https://github.com/kevintyj/color#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kevintyj/color.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kevintyj/color/issues"
+	},
+	"keywords": [
+		"flex",
+		"color",
+		"accessibility"
+	],
+	"main": "index.js",
+	"module": "index.mjs",
+	"scripts": {
+		"prepare": "husky install",
+		"lint:es": "eslint ."
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^1.1.0",
+		"@commitlint/cli": "^18.2.0",
+		"@commitlint/config-conventional": "^18.1.0",
+		"eslint": "^8.53.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^15.0.2",
+		"typescript": "^5.2.2"
+	}
+}

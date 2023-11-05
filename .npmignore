@@ -1,6 +1,14 @@
 # source files
 src
+
+# configs
 tsconfig.json
+.nvmrc
+.commitlintrc.json
+eslint.config.js
+tsup.config.js
+
+# github
 .github
 .changeset
 .husky

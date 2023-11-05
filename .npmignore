@@ -1,0 +1,6 @@
+# source files
+src
+tsconfig.json
+.github
+.changeset
+.husky

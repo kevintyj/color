@@ -3,6 +3,11 @@
 
 ---
 
+[![🚀 Build & Publish](https://github.com/kevintyj/color/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/kevintyj/color/actions/workflows/publish.yml)
+[![🧪 CI Tests](https://github.com/kevintyj/color/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/kevintyj/color/actions/workflows/ci.yml)
+[![Latest Release](https://img.shields.io/github/v/release/kevintyj/color)](https://github.com/kevintyj/color/releases)
+[![License](https://img.shields.io/github/license/kevintyj/color)](https://github.com/kevintyj/color/blob/main/LICENSE)
+
 Colors based off of [Ambient Colors](https://github.com/kevintyj/ambient)
 
 ## License

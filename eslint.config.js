@@ -13,6 +13,7 @@ export default antfu(
 		ignores: [
 			'dist',
 			'.idea',
+			'README.md',
 		],
 	},
 	{

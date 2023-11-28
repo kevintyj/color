@@ -109,7 +109,7 @@ export default {
 
 **Use with [unocss](https://tailwindcss.com)**
 
-`tailwind.config.ts`
+`uno.config.ts`
 
 ```ts
 import {

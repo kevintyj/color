@@ -7,8 +7,9 @@ export default antfu(
 			tsconfigPath: 'tsconfig.json',
 		},
 		stylistic: {
-			indent: 'tab',
 			quotes: 'single',
+			indent: 'tab',
+			semi: 'always',
 		},
 		ignores: [
 			'dist',
@@ -24,8 +25,12 @@ export default antfu(
 	},
 	{
 		rules: {
+			'style/no-tabs': ['error', { allowIndentationTabs: true }],
+			'style/no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
+			'style/array-bracket-newline': ['error', { multiline: true }],
+			'style/array-element-newline': ['error', 'consistent'],
 			'style/semi': ['error', 'always'],
+			'antfu/top-level-function': 'off',
 		},
-
 	},
 );

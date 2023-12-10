@@ -6,6 +6,10 @@ export const BaseBackground: ColorScale<HexColor> = {
 	light: '#FFFFFF',
 	dark: '#181819',
 };
+export const BaseColors = {
+	 white: '#FFFFFF',
+	 black: '#000000',
+};
 
 /* Export Ambient Color Scales (HEX) */
 export * from './light';

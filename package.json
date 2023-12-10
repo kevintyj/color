@@ -21,9 +21,18 @@
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"exports": {
-		"import": "./dist/index.js",
-		"require": "./dist/index.cjs",
-		"default": "./dist/index.js"
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./light": {
+			"import": "./dist/light.js",
+			"require": "./dist/light.cjs"
+		},
+		"./dark": {
+			"import": "./dist/dark.js",
+			"require": "./dist/dark.cjs"
+		}
 	},
 	"scripts": {
 		"watch": "tsup --watch",
@@ -33,7 +42,7 @@
 		"prepare": "husky install",
 		"lint:es": "eslint .",
 		"clean": "git clean -fdX",
-		"ci": "pnpm run lint:es && pnpm run build",
+		"ci": "pnpm run lint:es && pnpm run build && pnpm run build:css && pnpm run build:scss",
 		"release": "pnpm run ci && changeset publish"
 	},
 	"devDependencies": {

@@ -1,6 +1,7 @@
 # dist
 /dist
 /css
+/scss
 
 # dependencies
 /node_modules

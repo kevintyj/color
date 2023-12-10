@@ -29,6 +29,7 @@
 		"watch": "tsup --watch",
 		"build": "tsup",
 		"build:css": "node --loader ts-node/esm scripts/generateCSS.ts",
+		"build:scss": "node --loader ts-node/esm scripts/generateSCSS.ts",
 		"prepare": "husky install",
 		"lint:es": "eslint .",
 		"clean": "git clean -fdX",

@@ -2,4 +2,4 @@
 "@kevintyj/color": minor
 ---
 
-Generate CSS exports 
+Generate SCSS exports

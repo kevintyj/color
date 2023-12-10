@@ -28,6 +28,7 @@
 	"scripts": {
 		"watch": "tsup --watch",
 		"build": "tsup",
+		"build:css": "node --loader ts-node/esm scripts/generateCSS.ts",
 		"prepare": "husky install",
 		"lint:es": "eslint .",
 		"clean": "git clean -fdX",
@@ -36,13 +37,15 @@
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^1.1.0",
-		"@changesets/cli": "^2.26.2",
 		"@changesets/changelog-github": "^0.4.8",
+		"@changesets/cli": "^2.26.2",
 		"@commitlint/cli": "^18.2.0",
 		"@commitlint/config-conventional": "^18.1.0",
+		"@types/node": "^20.10.3",
 		"eslint": "^8.53.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^15.0.2",
+		"ts-node": "^10.9.2",
 		"tsup": "^7.2.0",
 		"typescript": "^5.2.2"
 	},

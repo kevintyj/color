@@ -25,7 +25,7 @@ export default antfu(
 	},
 	{
 		rules: {
-			'style/no-tabs': ['error', { allowIndentationTabs: true }],
+			'style/no-tabs': ['off', { allowIndentationTabs: true }],
 			'style/no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 			'style/array-bracket-newline': ['error', { multiline: true }],
 			'style/array-element-newline': ['error', 'consistent'],

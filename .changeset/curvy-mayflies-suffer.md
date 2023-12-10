@@ -1,5 +1,0 @@
----
-"@kevintyj/color": minor
----
-
-Generate CSS exports 

@@ -1,5 +1,17 @@
 # @kevintyj/color
 
+## 0.2.0
+
+### Minor Changes
+
+- [`2a593b8`](https://github.com/kevintyj/color/commit/2a593b8882b92edcca888bc4aecd9556a6779dfc) Thanks [@kevintyj](https://github.com/kevintyj)! - Generate CSS exports
+
+- [`5cfdeb6`](https://github.com/kevintyj/color/commit/5cfdeb6bc460c591571a4f72d9bdfd2eb0931d98) Thanks [@kevintyj](https://github.com/kevintyj)! - Generate SCSS exports
+
+### Patch Changes
+
+- [`5cfdeb6`](https://github.com/kevintyj/color/commit/5cfdeb6bc460c591571a4f72d9bdfd2eb0931d98) Thanks [@kevintyj](https://github.com/kevintyj)! - Add BaseColors (white/black) to colorset
+
 ## 0.1.1
 
 ### Patch Changes

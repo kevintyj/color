@@ -1,5 +1,11 @@
 # @kevintyj/color
 
+## 0.2.1
+
+### Patch Changes
+
+- [`8001e8c`](https://github.com/kevintyj/color/commit/8001e8c3cca5a5e2c434540b2dc9aa3ec695738a) Thanks [@kevintyj](https://github.com/kevintyj)! - Add light/dark js exports
+
 ## 0.2.0
 
 ### Minor Changes
